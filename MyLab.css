@@ -42,6 +42,18 @@
     padding: 20px;
       }
 
+      .btn-default:hover,
+      .btn-default:focus {
+        background-color: #d39c9c;
+      }
+    
+      #header{
+        width: 100%;
+        height: 100px;
+        background: #d39c9c;
+        text-align: center;
+    }
+
       body {
         background-color: #d39e9e; /* Ganti 'background.jpg' dengan URL atau path ke gambar latar belakang Anda */
         background-size: cover;
@@ -54,6 +66,16 @@
   .navbar {
     margin-bottom: 0;
   }
+  
+  .btn-default {
+    background-color:#d39e9e;
+    border: none;
+  }
+  
+  .btn-default:hover,
+  .btn-default:focus {
+    background-color: #d39e9e;
+  } 
   
 
   
